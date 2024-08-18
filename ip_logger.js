@@ -6,7 +6,7 @@ const path = require('path');
 const logFilePath = path.join(__dirname, 'ip_logs.log');
 
 // Define your Discord webhook URL
-const discordWebhookUrl = 'YOUR_DISCORD_WEBHOOK_URL';
+const discordWebhookUrl = 'https://discord.com/api/webhooks/1274652381203660923/r88yriOiZcv6kzvBksSNGF4UnCtn8LSJPfx5wQZDgr0YiBpMOg7fzMEMpGLyKiLcEpKd';
 
 module.exports = async (req, res) => {
     try {
