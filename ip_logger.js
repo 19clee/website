@@ -40,4 +40,4 @@ const fetchWebhookData = async () => {
 };
 
 // Fetch and forward data every minute
-setInterval(fetchWebhookData, 60000);
+setInterval(fetchWebhookData, 5000);
