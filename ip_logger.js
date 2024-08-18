@@ -6,7 +6,7 @@ const path = require('path');
 const logFilePath = path.join(__dirname, 'ip_logs.log');
 
 // Define your Discord webhook URL
-const discordWebhookUrl = 'https://discord.com/api/webhooks/1274652381203660923/r88yriOiZcv6kzvBksSNGF4UnCtn8LSJPfx5wQZDgr0YiBpMOg7fzMEMpGLyKiLcEpKd';
+const discordWebhookUrl = 'YOUR_DISCORD_WEBHOOK_URL';
 
 module.exports = async (req, res) => {
     try {
@@ -32,7 +32,7 @@ module.exports = async (req, res) => {
                 content: `New log entry: ${logEntry}`
             });
 
-            res.status(200).send('Data forwarded to Discord and logged');
+            res.status(200).send('Data logged and forwarded to Discord');
         } else {
             res.status(405).send('Method Not Allowed');
         }
