@@ -2,7 +2,7 @@ import subprocess
 import os
 
 # Define the directory and command
-directory = r'C:\Users\andre\OneDrive\Desktop\website logger'
+directory = r''
 command = ['node', 'ip_logger.js']
 
 # Function to open CMD and run the command
